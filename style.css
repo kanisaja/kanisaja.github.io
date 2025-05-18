@@ -20,25 +20,40 @@ body {
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
-a { text-decoration: none; outline:none; }
+a { text-decoration: underline; 
+    outline:none; 
+    text-decoration-color: #e0bfc4; /* lighter underline color */
+}
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
 a:link { color:#cc0000; }
 a:visited { color:#660066; }
 a:hover { color:#660066; }
 a:active { color:#990000; outline:none; }
 
-h1, h2, h3{
+h1, h2, h3 {
     color: #330066;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
 }
 
 #uvod{
     padding: 1.3em;
     background-color: rgb(51, 0, 102, 0.1);
+    box-shadow: none; 
 }
 
-section{
-    padding: 0.5em;
+section {
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 2px 8px rgba(51,0,102,0.25);
+    margin-bottom: 2em;
+    padding: 1.5em;
 }
 
+#kazalo-container a {
+    text-decoration: none;
+}
 
 
