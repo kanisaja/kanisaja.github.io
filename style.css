@@ -29,16 +29,15 @@ a:active { color:#990000; outline:none; }
 
 h1, h2, h3{
     color: #330066;
-    padding: 0.5em;
 }
 
-p{
-    padding: 0.5em;;
-}
-
-#uvod {
-    padding: 2em;
+#uvod{
+    padding: 1.3em;
     background-color: rgb(51, 0, 102, 0.1);
+}
+
+section{
+    padding: 0.5em;
 }
 
 
