@@ -11,12 +11,12 @@ body {
     /*  Višina vrstice  */
     line-height: 1.5;
     /*  Največja širina vsebine spletne strani  */
-    max-width: 40em;
+    max-width: 32em;
     /*  Širina zunanjega roba; auto pomeni, da rob izračuna brskalnik tako, da element zavzame širino določeno v slogu,
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
     /*  Obojestranska poravnava besedila    */
-    text-align: justify;
+    text-align: left;
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
@@ -37,11 +37,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2em;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #AAAAAA;
-    padding-top: 0.5em;
+    color: #330066;
 }
 
 #uvod {
@@ -68,5 +64,4 @@ h2 {
     padding-top: 0;
 }
 
-a::before {content: "✧"}
-a::after {content: "✧"}
+
