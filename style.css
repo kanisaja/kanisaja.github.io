@@ -11,7 +11,7 @@ body {
     /*  Višina vrstice  */
     line-height: 1.5;
     /*  Največja širina vsebine spletne strani  */
-    max-width: 32em;
+    max-width: 40em;
     /*  Širina zunanjega roba; auto pomeni, da rob izračuna brskalnik tako, da element zavzame širino določeno v slogu,
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
@@ -27,17 +27,13 @@ a:visited { color:#660066; }
 a:hover { color:#660066; }
 a:active { color:#990000; outline:none; }
 
-code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: #009966;
+h1, h2, h3{
+    color: #330066;
+    padding: 0.5em;
 }
 
-h1 {
-    color: #330066;
-}
-
-h2 {
-    color: #330066;
+p{
+    padding: 0.5em;;
 }
 
 #uvod {
@@ -45,23 +41,5 @@ h2 {
     background-color: rgb(51, 0, 102, 0.1);
 }
 
-.slika {
-    font-size: 0.9em;
-    width: 40%;
-    text-align: left;
-    float: right;
-    margin-left: 2em;
-}
-
-.slika img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.slika p:last-child {
-    font-size: 0.8em;
-    padding-top: 0;
-}
 
 
